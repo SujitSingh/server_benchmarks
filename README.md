@@ -6,7 +6,9 @@ My point here is to do a benchmark on a real daily use case, such as loading n e
 
 ## Sql dump 
 
-1500 entries in a database selecting only 100
+To generate necessary data for the DB, run `npm start` in `express_5` folder.
+
+2000 entries in a database table, each request is selecting only top 100.
 
 All the benchmarks are made with [wrk](https://github.com/wg/wrk)
 
